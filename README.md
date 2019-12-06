@@ -28,10 +28,8 @@ TASKS:
 
 ## DATA LOADING:
 SQL DATA DEFINITION LANGUAGE(DDL)
-1. Create a new schema called  stackoverflow_filtered​ .
-2. Create one table called results.
-
-DATA LOADING
+1. Created a new schema called  stackoverflow_filtered.
+2. Created one table called results.
 3. Used spark to write the results into this table with the snippet below.
 4. Created a btree  index on the reputation column within the results table.
 5. Created a hash index on the display_name column within the results table.
